@@ -1,6 +1,8 @@
 package com.example.moooy.andoridlab.activity;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.EditText;
 
 import com.example.moooy.andoridlab.R;
 import com.example.moooy.andoridlab.core.AppActivity;
@@ -11,4 +13,6 @@ public class MainActivity extends AppActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+
 }

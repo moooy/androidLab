@@ -14,11 +14,7 @@ import com.example.moooy.andoridlab.R;
  */
 public abstract class BaseActivity extends AppCompatActivity implements IBaseActivity {
 
-//    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(getLayoutResourceId());
-//    }
+    public static final boolean LOG = false;
 
     public void showToast(String msg){
         Toast.makeText(this,msg,Toast.LENGTH_SHORT).show();
