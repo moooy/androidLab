@@ -40,4 +40,5 @@ public class AppActivity extends BaseActivity implements IAppActivity {
         LayoutInflater.from(this).inflate(layoutResID,contentLayout);
     }
 
+
 }
