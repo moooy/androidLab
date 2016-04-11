@@ -1,5 +1,6 @@
 package com.example.datastorage;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -37,6 +38,10 @@ public class SharedPreferencesActivity extends AppCompatActivity {
         //SharedPreferences的get方法的两个参数为key和没有值时返回的默认值
         readNameTV.setText(sharedPreferences.getString(nameTV.getText().toString(),""));
         readAgeTV.setText(sharedPreferences.getString(ageTV.getText().toString(),"0"));
+    }
+
+    public void onNextClick(View view) {
+        startActivity(new Intent(this,SQLiteActivity.class));
     }
 
 
